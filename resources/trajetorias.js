@@ -16,7 +16,7 @@ height = 400;
 
 console.log (width, height);
 
-d3.json("testeonibus/trajectories.json" , function(d) {
+d3.json("resources/trajectories.json" , function(d) {
 	data = d;
 	visualize();
 })
